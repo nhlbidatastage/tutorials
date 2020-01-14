@@ -4,5 +4,3 @@
 
 ## Genome-wide Association
 
-* [Untitled](genome-wide-association/untitled.md)
-
