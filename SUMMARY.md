@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Initial page](README.md)
+* [Tutorials](README.md)
 
 ## Genome-wide Association
 
