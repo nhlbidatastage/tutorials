@@ -4,5 +4,5 @@
 
 ## Genome-wide Association
 
-* [Genetic Association Testing Using GENESIS Workflows](genetic-association-testing-using-genesis-workflows.md)
+* [GWAS Gen3-Dockstore-Terra Workflows](https://github.com/nhlbidatastage/documentation/blob/master/gwas-terra-tutorial/bdcatalyst-gwas-gen3-dockstore-terra.md)
 
