@@ -3,6 +3,7 @@
 * [Tutorials](README.md)
 
 ## Documentation
+
 * [BD Catalyst Documentation Site](https://bdcatalyst.gitbook.io/biodata-catalyst-documentation/)
 
 ## Genome-wide Association
