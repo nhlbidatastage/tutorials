@@ -1,8 +1,8 @@
 # Table of contents
 
 * [Tutorials Intro](README.md)
-* [Documentation](https://bdcatalyst.gitbook.io/biodata-catalyst-documentation/)
 * [Tutorials](README.md)
+* [Documentation](https://bdcatalyst.gitbook.io/biodata-catalyst-documentation/)
 
 ## Genome-wide Association
 
