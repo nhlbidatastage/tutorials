@@ -1,5 +1,6 @@
 # Table of contents
 
+* [Documentation](https://bdcatalyst.gitbook.io/biodata-catalyst-documentation/)
 * [Tutorials](README.md)
 
 ## Documentation
