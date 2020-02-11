@@ -6,5 +6,5 @@
 
 ## Genome-wide Association
 
-* [GWAS Gen3-Dockstore-Terra Workflows](https://github.com/nhlbidatastage/documentation/blob/master/GWAS-Terra-Tutorial/BDCatalyst-GWAS-Gen3-Dockstore-Terra_template.md)
+* [GWAS Gen3-Dockstore-Terra Workflows](gwas-terra-tutorial/BDCatalyst-GWAS-Gen3-Dockstore-Terra_template.md)
 
