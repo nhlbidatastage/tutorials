@@ -8,3 +8,13 @@
 
 * [GWAS Gen3-Dockstore-Terra Tutorial](gwas-terra-tutorial/BDCatalyst-GWAS-Gen3-Dockstore-Terra_template.md)
 
+## Help Desk
+
+* [Help Desk -- Basic Response](help-desk/help-desk-basic-response/README.md)
+  * [Login](help-desk/help-desk-basic-response/login.md)
+  * [Access Dashboard](help-desk/help-desk-basic-response/access-dashboard.md)
+  * [Open Ticket](help-desk/help-desk-basic-response/open-ticket.md)
+  * [Respond to User](help-desk/help-desk-basic-response/respond-to-user.md)
+  * [Close Ticket](help-desk/help-desk-basic-response/close-ticket.md)
+* [Help Desk -- Triage and Delegation](help-desk/help-desk-triage-and-delegation.md)
+
