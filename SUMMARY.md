@@ -6,7 +6,7 @@
 
 ## Genome-wide Association
 
-* [GWAS Gen3-Dockstore-Terra Tutorial](gwas-terra-tutorial/BDCatalyst-GWAS-Gen3-Dockstore-Terra_template.md)
+* [GWAS Gen3-Dockstore-Terra Tutorial](genome-wide-association/bdcatalyst-gwas-gen3-dockstore-terra_template.md)
 
 ## Help Desk
 
