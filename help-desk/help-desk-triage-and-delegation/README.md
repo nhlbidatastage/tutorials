@@ -12,5 +12,9 @@ To explain how the workflow for Triage and Delegation works.
 
 {% page-ref page="../help-desk-basic-response/open-ticket.md" %}
 
+{% page-ref page="ticket-triage.md" %}
+
+{% page-ref page="request-additional-information.md" %}
+
 
 

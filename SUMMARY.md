@@ -18,4 +18,5 @@
   * [Resolve / Close Ticket](help-desk/help-desk-basic-response/close-ticket.md)
 * [Help Desk -- Triage and Delegation](help-desk/help-desk-triage-and-delegation/README.md)
   * [Ticket Triage](help-desk/help-desk-triage-and-delegation/ticket-triage.md)
+  * [Request Additional Information](help-desk/help-desk-triage-and-delegation/request-additional-information.md)
 
