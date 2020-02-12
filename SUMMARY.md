@@ -16,6 +16,6 @@
   * [Open Ticket](help-desk/help-desk-basic-response/open-ticket.md)
   * [Respond to User](help-desk/help-desk-basic-response/respond-to-user.md)
   * [Resolve / Close Ticket](help-desk/help-desk-basic-response/close-ticket.md)
-* [Help Desk -- Triage and Delegation](help-desk/help-desk-triage-and-delegation.md)
-* [Ticket Triage](help-desk/ticket-triage.md)
+* [Help Desk -- Triage and Delegation](help-desk/help-desk-triage-and-delegation/README.md)
+  * [Ticket Triage](help-desk/help-desk-triage-and-delegation/ticket-triage.md)
 
