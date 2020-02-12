@@ -12,7 +12,11 @@ The goal of this tutorial will be to explain the basic process for responding to
 
 {% page-ref page="access-dashboard.md" %}
 
+{% page-ref page="open-ticket.md" %}
+
 {% page-ref page="respond-to-user.md" %}
+
+
 
 {% page-ref page="close-ticket.md" %}
 
