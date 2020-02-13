@@ -19,4 +19,5 @@
 * [Help Desk -- Triage and Delegation](help-desk/help-desk-triage-and-delegation/README.md)
   * [Ticket Triage](help-desk/help-desk-triage-and-delegation/ticket-triage.md)
   * [Request Additional Information](help-desk/help-desk-triage-and-delegation/request-additional-information.md)
+* [Review Question Type](review-question-type.md)
 
