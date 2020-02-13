@@ -10,15 +10,15 @@ To explain how the workflow for Triage and Delegation works.
 {% tab title="Login, Dashboard, Ticket" %}
 
 
+{% page-ref page="../help-desk-basic-response/login.md" %}
+
 {% page-ref page="../help-desk-basic-response/access-dashboard.md" %}
 
 {% page-ref page="../help-desk-basic-response/open-ticket.md" %}
-
-{% page-ref page="../help-desk-basic-response/login.md" %}
 {% endtab %}
 
 {% tab title="Triage, Request Info" %}
-{% page-ref page="ticket-triage.md" %}
+{% page-ref page="ticket-triage/" %}
 
 {% page-ref page="request-additional-information.md" %}
 {% endtab %}
