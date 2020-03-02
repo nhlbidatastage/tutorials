@@ -7,6 +7,7 @@
 ## Genome-wide Association
 
 * [GWAS Gen3-Dockstore-Terra Tutorial](genome-wide-association/bdcatalyst-gwas-gen3-dockstore-terra_template.md)
+* [Untitled](genome-wide-association/genetic-association-testing-using-genesis-workflows-seven-bridges.md)
 
 ## Help Desk
 
