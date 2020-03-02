@@ -4,9 +4,10 @@
 * [Documentation](https://bdcatalyst.gitbook.io/biodata-catalyst-documentation/)
 * [Help Desk](https://bdcatalyst.freshdesk.com/support/home)
 
-## Genome-wide Association
+## Tutorials
 
-* [GWAS Gen3-Dockstore-Terra Tutorial](genome-wide-association/bdcatalyst-gwas-gen3-dockstore-terra_template.md)
+* [Genome-wide Association on Gen3-Dockstore-Terra](genome-wide-association/bdcatalyst-gwas-gen3-dockstore-terra_template.md)
+* [Genetic Association Testing using GENESIS Workflows on NHLBI BioData Catalyst powered by Seven Bridges](https://github.com/nhlbidatastage/tutorials/blob/master/.gitbook/assets/draft-of-genetic-association-testing-using-the-genesis-workflows.pdf
 
 ## Help Desk
 
