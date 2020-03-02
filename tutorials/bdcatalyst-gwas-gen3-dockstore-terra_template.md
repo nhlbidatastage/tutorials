@@ -1,4 +1,4 @@
-# GWAS Gen3-Dockstore-Terra Tutorial
+# Genome-wide Association on Gen3-Dockstore-Terra
 
 ## Template Blood Pressure Trait GWAS in NHLBI's BioData Catalyst
 

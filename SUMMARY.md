@@ -6,8 +6,8 @@
 
 ## Tutorials
 
-* [Genome-wide Association on Gen3-Dockstore-Terra](genome-wide-association/bdcatalyst-gwas-gen3-dockstore-terra_template.md)
-* [Genetic Association Testing using GENESIS Workflows on NHLBI BioData Catalyst powered by Seven Bridges](https://github.com/nhlbidatastage/tutorials/blob/master/.gitbook/assets/draft-of-genetic-association-testing-using-the-genesis-workflows.pdf
+* [Genome-wide Association on Gen3-Dockstore-Terra](tutorials/bdcatalyst-gwas-gen3-dockstore-terra_template.md)
+* [Genetic Association Testing using GENESIS Workflows on Seven Bridges](https://github.com/nhlbidatastage/tutorials/blob/master/.gitbook/assets/draft-of-genetic-association-testing-using-the-genesis-workflows.pdf)
 
 ## Help Desk
 
