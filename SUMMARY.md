@@ -7,7 +7,6 @@
 ## Tutorials
 
 * [Genome-wide Association on Gen3-Dockstore-Terra](tutorials/bdcatalyst-gwas-gen3-dockstore-terra_template.md)
-* [Onboarding to NHLBI BioData Catalyst powered by Seven Bridges](tutorials/https-github.com-nhlbidatastage-tutorials-raw-master-tutorials-2020-03-09-seven-bridges-onboarding.md)
 
 ## Help Desk
 
