@@ -6,7 +6,7 @@
 
 ## Tutorials
 
-* [Genome-wide Association on Gen3-Dockstore-Terra](tutorials/bdcatalyst-gwas-gen3-dockstore-terra_template.md)
+* [Genome Wide Association Study in BioData Catalyst Powered by Terra, Gen3, and Dockstore](tutorials/bdcatalyst-gwas-terra-gen3-dockstore.md)
 * [Onboarding to NHLBI BioData Catalyst powered by Seven Bridges](https://github.com/nhlbidatastage/tutorials/raw/master/tutorials/2020-03-09-seven-bridges-onboarding-tutorial.pdf)
 
 ## Help Desk
