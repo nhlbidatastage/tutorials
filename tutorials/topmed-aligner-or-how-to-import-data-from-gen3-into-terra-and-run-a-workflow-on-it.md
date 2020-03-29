@@ -4,7 +4,7 @@ description: 'Powered by Terra, Gen3, and Dockstore'
 
 # TOPMed Aligner, or, How to Import Data From Gen3 into Terra and Run a Workflow on It
 
-The content on this page can also be found a template workspace in Terra.
+The content on this page is also in a template workspace in Terra.
 
 In this tutorial, you will be running the TOPMed alignment workflow as you learn how to use the BioData Catalyst platform powered by Terra, Dockstore, and Gen3. This is a beginner-oriented tutorial walks you through how each of these platforms interact with one another.
 
