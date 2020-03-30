@@ -74,7 +74,7 @@ _If you already know what preemptibles are and don't want to use them, you can s
 
 When computing on Google Cloud, you have the option of using preemptible virtual machines. These virtual machines work essentially the same as what you expect from Google Cloud, but they are significantly cheaper \(sometimes less than half the price!\). There is a catch, however -- they may shut down in the middle of a task and only exist for 24 hours at most. You can find more information [from Google](https://cloud.google.com/preemptible-vms/), but let's talk about the specifics of this workspace.
 
-This wasn't really a concern earlier on when running on tiny test CRAM files, as those files generally complete in less than ten minutes. But when running on full-size CRAM files such as those in the 1000 Genomes project, there is a chance that any given step \(pre-alignment, alignment, or post-alignment\) might get shut down before it completes if it's run on a preemptible VM. This is especially true of the post-align step, which tends to take the longest, often more than 24 hours when running on full-sized CRAM files.
+This isn't a concern if you were running on small test CRAM files such as the ones on the aligner's Dockstore sample JSON. But when running on full-size CRAM files such as ones imported from Gen3, there is a chance that any given step \(pre-alignment, alignment, or post-alignment\) might get shut down before it completes if it's run on a preemptible VM. This is especially true of the post-align step, which tends to take the longest, often more than 24 hours when running on full-sized CRAM files.
 
 We've broken down some possibilities here so you can balance risk, run time, and cost:
 
