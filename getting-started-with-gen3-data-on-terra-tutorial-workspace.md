@@ -2,9 +2,9 @@
 description: A step-by-step tutorial to help researchers working with Gen3 data in Terra.
 ---
 
-# Getting Started with Gen3 Data on Terra - Tutorial workspace
+# Getting Started with Gen3 Data on Terra       Tutorial workspace
 
-Welcome to Terra! We developed this hands-on tutorial to help researchers working with Gen3 data in Terra. The tutorial includes step-by-step instructions to cover the entire analysis process: 
+Welcome to Terra! We developed this [hands-on tutorial](https://terra.biodatacatalyst.nhlbi.nih.gov/#workspaces/fc-product-demo/BioDataCatalyst-Gen3-data-on-Terra-Tutorial) to help researchers working with Gen3 data in Terra. The tutorial includes step-by-step instructions to cover the entire analysis process: 
 
 * How to link your Gen3 and Terra accounts
 * How to find and export Gen3 data to a project workspace
