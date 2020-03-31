@@ -12,7 +12,7 @@ Welcome to Terra! We developed this [hands-on tutorial](https://terra.biodatacat
 * How to run an interactive analysis in a Jupyter notebook
 * How to configure and run a bulk analysis using workflow tools 
 
-Reading the documentation and following the step-by-step instructions will help familiarize you with Terra, so you can hit the ground running.
+Reading the documentation and following the step-by-step instructions will help familiarize you with Terra, so you can hit the ground running.The content on this page is available in a [tutorial workspace](https://terra.biodatacatalyst.nhlbi.nih.gov/#workspaces/fc-product-demo/BioDataCatalyst-Gen3-data-on-Terra-Tutorial) in Terra.
 
 ## Tutorial Overview
 
@@ -46,7 +46,9 @@ The tutorial uses a synthetic, public-access dataset derived from 1,000 Genomes 
 
 \(one minute\)  
 Before you begin, you will need to create your own editable copy \(clone\) of this WORKSPACE to work in.  
-**1.** Click on the round circle with three dots in the upper right corner of this page: ![Clone\_ScreenShot](https://storage.cloud.google.com/terra-featured-workspaces/QuickStart/Clone_workspace_Screen%20Shot.png)
+**1.** Click on the round circle with three dots in the upper right corner of the workspace: 
+
+![Clone\_ScreenShot](.gitbook/assets/bdc-clone-workspace_screen-shot.png)
 
 **2.** Select "Clone" from the dropdown menu
 
