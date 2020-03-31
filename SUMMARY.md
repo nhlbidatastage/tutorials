@@ -1,6 +1,7 @@
 # Table of contents
 
 * [Tutorials](README.md)
+* [Getting Started with Gen3 Data on Terra - Tutorial workspace](getting-started-with-gen3-data-on-terra-tutorial-workspace.md)
 * [Documentation](https://bdcatalyst.gitbook.io/biodata-catalyst-documentation/)
 * [Help Desk](https://bdcatalyst.freshdesk.com/support/home)
 
