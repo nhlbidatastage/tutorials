@@ -2,7 +2,7 @@
 description: A step-by-step tutorial to help researchers working with Gen3 data in Terra.
 ---
 
-# Getting Started with Gen3 Data on Terra       Tutorial workspace
+# Getting Started with Gen3 Data on Terra       Tutorial Workspace
 
 Welcome to Terra! We developed this [hands-on tutorial](https://terra.biodatacatalyst.nhlbi.nih.gov/#workspaces/fc-product-demo/BioDataCatalyst-Gen3-data-on-Terra-Tutorial) to help researchers working with Gen3 data in Terra. The tutorial includes step-by-step instructions to cover the entire analysis process: 
 
@@ -48,7 +48,7 @@ The tutorial uses a synthetic, public-access dataset derived from 1,000 Genomes 
 Before you begin, you will need to create your own editable copy \(clone\) of this WORKSPACE to work in.  
 **1.** Click on the round circle with three dots in the upper right corner of the workspace: 
 
-![Clone\_ScreenShot](.gitbook/assets/bdc-clone-workspace_screen-shot.png)
+![Clone\_ScreenShot](../.gitbook/assets/bdc-clone-workspace_screen-shot.png)
 
 **2.** Select "Clone" from the dropdown menu
 
@@ -137,11 +137,11 @@ Congratulations! You've accessed and analyzed your first Gen3 data in Terra. Now
 
 To understand what you will see when you export Gen3 data to a Terra workspace, it helps to first understand how the data is organized in Gen3. A diagram of the graph structure of the synthetic data in Gen3 is below on the left. Each box is a Gen3 data node and each line represents UUIDs connecting the metadata of the two nodes. Administrative nodes are purple, clinical data are in blue boxes, and genomic data are green boxes. When you export a project's data to a Terra workspace, each node in the graph gets imported as its own data table. Your data page will look like the figure on the right. The synthetic data in this tutorial is captured in fifteen tables, corresponding to the fifteen nodes in the graph structure.
 
-![](.gitbook/assets/bdc_gen3-graph-versus-terra-tables_screen-shot.png)
+![](../.gitbook/assets/bdc_gen3-graph-versus-terra-tables_screen-shot.png)
 
 Each data table includes **all the metadata fields** associated with the Gen3 node, in alphabetical order. The lab\_results table, for example, looks like this:
 
-![Screen shot of demographic table](.gitbook/assets/bdc_synthetic_data_lab-results-table_screen-shot.png)
+![Screen shot of demographic table](../.gitbook/assets/bdc_synthetic_data_lab-results-table_screen-shot.png)
 
 You might see from this example several features specific to the Gen3 data structure that can be challenging to work with in Terra:
 
