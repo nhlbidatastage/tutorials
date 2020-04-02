@@ -23,6 +23,8 @@ These hands-on tutorials cover the full flow of selecting data in Gen3 then hand
 
 ## Additional Tutorial Resources
 
+These tutorials often use Terra’s data model. If you would like to use Gen3 data with these examples, we suggest that you begin with “Getting Started with Gen3 Data on Terra” , which can help you transform graph-structured data into a data model easier to use with our entire suite of tutorials.
+
 * \*\*\*\*[**Terra Showcase and Example Workspaces**](https://terra.biodatacatalyst.nhlbi.nih.gov/#library/showcase)\*\*\*\*
 
 ##   <a id="template-blood-pressure-trait-gwas-in-nhlbis-biodata-catalyst"></a>
