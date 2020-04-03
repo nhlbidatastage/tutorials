@@ -16,7 +16,7 @@ These hands-on tutorials cover the full flow of selecting data in Gen3 then hand
 
 #### [Genome Wide Association Study in BioData Catalyst Powered by Terra, Gen3, and Dockstore](https://bdcatalyst.gitbook.io/biodata-catalyst-tutorials/tutorials/bdcatalyst-gwas-terra-gen3-dockstore)
 
-#### [BioData Catalyst Collection](https://app.terra.bio/#workspaces/biodata-catalyst/BioData%20Catalyst%20Collection) holds utilities and analysis notebooks
+#### [BioData Catalyst Collection](https://app.terra.bio/#workspaces/biodata-catalyst/BioData%20Catalyst%20Collection) is a catalog of utilities and analysis notebooks
 
 ## Additional Tutorial Articles <a id="template-blood-pressure-trait-gwas-in-nhlbis-biodata-catalyst"></a>
 
