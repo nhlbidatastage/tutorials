@@ -14,7 +14,7 @@ These hands-on tutorials cover the full flow of selecting data in Gen3 then hand
 
 #### [TOPMed Aligner, or, How to Import Data From Gen3 into Terra and Run a Workflow on It](https://bdcatalyst.gitbook.io/biodata-catalyst-tutorials/tutorials/topmed-aligner-or-how-to-import-data-from-gen3-into-terra-and-run-a-workflow-on-it)
 
-#### [Genome Wide Association Study Tutorial](https://app.terra.bio/#workspaces/biodata-catalyst/BioData%20Catalyst%20GWAS%201000%20Genomes%20Tutorial)
+#### [Genome Wide Association Study Tutorial](https://terra.biodatacatalyst.nhlbi.nih.gov/#workspaces/biodata-catalyst/BioData%20Catalyst%20GWAS%201000%20Genomes%20Tutorial)
 
 #### [Genome Wide Association Study using TOPMed data in BioData Catalyst Powered by Terra, Gen3, and Dockstore](https://bdcatalyst.gitbook.io/biodata-catalyst-tutorials/tutorials/bdcatalyst-gwas-terra-gen3-dockstore)
 
