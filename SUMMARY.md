@@ -25,3 +25,10 @@
     * [Review Question Type](help-desk/help-desk-triage-and-delegation/ticket-triage/review-question-type.md)
   * [Request Additional Information](help-desk/help-desk-triage-and-delegation/request-additional-information.md)
 
+## Carpentries Lessons <a id="software-data-library-and-hpc-carpentry-lessons"></a>
+
+* [Software Carpentry](https://software-carpentry.org/lessons/)
+* [Data Carpentry](https://datacarpentry.org/lessons/)
+* [HPC Carpentry](https://hpc-carpentry.github.io/)
+* [Library Carpentry](https://librarycarpentry.org/lessons/)
+
