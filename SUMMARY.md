@@ -9,6 +9,7 @@
 * [Onboarding to NHLBI BioData Catalyst powered by Seven Bridges](https://github.com/nhlbidatastage/tutorials/raw/master/tutorials/2020-03-09-seven-bridges-onboarding-tutorial.pdf)
 * [Terra Tutorials](tutorials/terra-tutorials/README.md)
   * [Getting Started with Gen3 Data on Terra       Tutorial Workspace](tutorials/terra-tutorials/getting-started-with-gen3-data-on-terra-tutorial-workspace.md)
+  * [Genome Wide Association Study Tutorial](tutorials/terra-tutorials/genome-wide-association-study-tutorial.md)
   * [TOPMed Aligner, or, How to Import Data From Gen3 into Terra and Run a Workflow on It](tutorials/terra-tutorials/topmed-aligner-or-how-to-import-data-from-gen3-into-terra-and-run-a-workflow-on-it.md)
   * [Genome Wide Association Study in BioData Catalyst Powered by Terra, Gen3, and Dockstore](tutorials/terra-tutorials/bdcatalyst-gwas-terra-gen3-dockstore.md)
 

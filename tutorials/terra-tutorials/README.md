@@ -20,6 +20,13 @@ These hands-on tutorials cover the full flow of selecting data in Gen3 then hand
 
 #### [BioData Catalyst Collection](https://app.terra.bio/#workspaces/biodata-catalyst/BioData%20Catalyst%20Collection) is a catalog of utilities and analysis notebooks
 
+## PIC-Sure Tutorials in Terra
+
+#### These workspaces hit the PIC-Sure API that offers search features for controlled-access data from BioData Catalyst. You can query studies and subset based on patients matching specified criteria, as well as to retrieve a cohort that has been created using the [PIC-SURE interface](https://picsure.biodatacatalyst.nhlbi.nih.gov/). 
+
+* \*\*\*\*[**PIC-Sure Tutorials in R**](https://terra.biodatacatalyst.nhlbi.nih.gov/#workspaces/biodata-catalyst/BioData%20Catalyst%20PIC-SURE%20API%20R%20Examples)\*\*\*\*
+* \*\*\*\*[**PIC-Sure API Tutorials in Python**](https://terra.biodatacatalyst.nhlbi.nih.gov/#workspaces/biodata-catalyst/BioData%20Catalyst%20PIC-SURE%20API%20Python%20examples)\*\*\*\*
+
 ## Additional Tutorial Articles <a id="template-blood-pressure-trait-gwas-in-nhlbis-biodata-catalyst"></a>
 
 * [**Understanding and using Gen3 data in Terra**](https://support.terra.bio/hc/en-us/articles/360038087312)\*\*\*\*

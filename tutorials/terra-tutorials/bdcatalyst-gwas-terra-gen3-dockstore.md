@@ -1,8 +1,10 @@
 # Genome Wide Association Study in BioData Catalyst Powered by Terra, Gen3, and Dockstore
 
+This document is an open access preview of the Terra tutorial workspace that you can find at this [link](https://terra.biodatacatalyst.nhlbi.nih.gov/#workspaces/biodata-catalyst/BioData%20Catalyst%20GWAS%20blood%20pressure%20trait).
+
 ## Template Blood Pressure Trait GWAS in NHLBI's BioData Catalyst
 
-This template workspace was created to offer example tools for conducting a single variant, mixed-models GWAS focusing on a blood pressure trait from start to finish using the [NHLBI BioData Catalyst](https://www.nhlbidatastage.org/) ecosystem. We have created a set of documents [to get you started in the the BioData Catalyst system](https://support.terra.bio/hc/en-us/sections/360007757832). This document is an open access preview of the Terra tutorial workspace that you can find at this [link](https://app.terra.bio/#workspaces/biodata-catalyst/BioData%20Catalyst%20GWAS%20blood%20pressure%20trait). If you're ready to conduct an analysis, proceed with this dashboard:
+This template workspace was created to offer example tools for conducting a single variant, mixed-models GWAS focusing on a blood pressure trait from start to finish using the [NHLBI BioData Catalyst](https://www.nhlbidatastage.org/) ecosystem. We have created a set of documents [to get you started in the the BioData Catalyst system](https://support.terra.bio/hc/en-us/sections/360007757832).  If you're ready to conduct an analysis, proceed with this dashboard:
 
 
 
