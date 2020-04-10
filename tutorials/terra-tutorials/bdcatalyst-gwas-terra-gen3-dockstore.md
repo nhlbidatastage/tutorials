@@ -1,4 +1,8 @@
-# Genome Wide Association Study in BioData Catalyst Powered by Terra, Gen3, and Dockstore
+---
+description: 'Powered by Terra, Gen3, and Dockstore'
+---
+
+# Genome Wide Association Study with TOPMed data
 
 This document is an open access preview of the Terra tutorial workspace that you can find at this [link](https://terra.biodatacatalyst.nhlbi.nih.gov/#workspaces/biodata-catalyst/BioData%20Catalyst%20GWAS%20blood%20pressure%20trait).
 

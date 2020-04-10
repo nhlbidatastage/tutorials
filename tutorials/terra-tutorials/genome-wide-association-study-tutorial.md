@@ -1,6 +1,10 @@
-# Genome Wide Association Study Tutorial
+---
+description: 'Powered by Terra, Dockstore, and Gen'
+---
 
-This document is an open access preview of the Terra tutorial workspace that you can find at this [link](https://terra.biodatacatalyst.nhlbi.nih.gov/#workspaces/biodata-catalyst/BioData%20Catalyst%20GWAS%201000%20Genomes%20Tutorial).
+# Genome Wide Association Study 1000 Genomes Tutorial
+
+This page is an open access preview of the Terra tutorial workspace that you can find at this [link](https://terra.biodatacatalyst.nhlbi.nih.gov/#workspaces/biodata-catalyst/BioData%20Catalyst%20GWAS%201000%20Genomes%20Tutorial).
 
 ## GWAS Tutorial in NHLBI's BioData Catalyst
 
