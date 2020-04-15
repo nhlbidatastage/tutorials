@@ -3,6 +3,7 @@
 * [Tutorials](README.md)
 * [Documentation](https://bdcatalyst.gitbook.io/biodata-catalyst-documentation/)
 * [Help Desk](https://bdcatalyst.freshdesk.com/support/home)
+* [Consortium Guidance](https://bdcatalyst.gitbook.io/biodata-catalyst-consortium-guidance/)
 
 ## Tutorials
 
@@ -19,5 +20,4 @@
 * [Data Carpentry](https://datacarpentry.org/lessons/)
 * [HPC Carpentry](https://hpc-carpentry.github.io/)
 * [Library Carpentry](https://librarycarpentry.org/lessons/)
-* [Consortium Guidance](https://bdcatalyst.gitbook.io/biodata-catalyst-consortium-guidance/)
 
