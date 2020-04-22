@@ -1,6 +1,10 @@
+---
+description: >-
+  This is a repository for tutorials related to the platforms and services that
+  are part of the NHLBI BioData Catalyst ecosystem.
+---
+
 # Tutorials
 
-![](.gitbook/assets/screen-shot-2020-01-22-at-3.48.20-pm.png)
-
-Access step-by-step guides and how-to's here.
+![](.gitbook/assets/biodata-catalyst-website.png)
 
