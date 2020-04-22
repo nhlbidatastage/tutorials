@@ -1,3 +1,7 @@
+---
+description: Tutorials available for users of BioData Catalyst powered by Seven Bridges
+---
+
 # Seven Bridges Tutorials
 
 #### Onboarding to Seven Bridges
