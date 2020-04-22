@@ -8,6 +8,7 @@
 ## Tutorials
 
 * [Onboarding to NHLBI BioData Catalyst powered by Seven Bridges](https://github.com/nhlbidatastage/tutorials/raw/master/tutorials/2020-04-15-seven-bridges-onboarding-tutorial.pdf)
+* [Seven Bridges Tutorials](tutorials/seven-bridges-tutorials.md)
 * [Terra Tutorials](tutorials/terra-tutorials/README.md)
   * [Getting Started with Gen3 Data on Terra       Tutorial Workspace](tutorials/terra-tutorials/getting-started-with-gen3-data-on-terra-tutorial-workspace.md)
   * [Genome Wide Association Study 1000 Genomes Tutorial](tutorials/terra-tutorials/genome-wide-association-study-tutorial.md)
