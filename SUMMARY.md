@@ -14,10 +14,7 @@
   * [Genome Wide Association Study with TOPMed data](tutorials/terra-tutorials/bdcatalyst-gwas-terra-gen3-dockstore.md)
   * [TOPMed Aligner, or, How to Import Data From Gen3 into Terra and Run a Workflow on It](tutorials/terra-tutorials/topmed-aligner-or-how-to-import-data-from-gen3-into-terra-and-run-a-workflow-on-it.md)
 
-## Carpentries Lessons <a id="software-data-library-and-hpc-carpentry-lessons"></a>
+## External Tutorials <a id="software-data-library-and-hpc-carpentry-lessons"></a>
 
-* [Software Carpentry](https://software-carpentry.org/lessons/)
-* [Data Carpentry](https://datacarpentry.org/lessons/)
-* [HPC Carpentry](https://hpc-carpentry.github.io/)
-* [Library Carpentry](https://librarycarpentry.org/lessons/)
+* [The Carpentries](software-data-library-and-hpc-carpentry-lessons/the-carpentries.md)
 
