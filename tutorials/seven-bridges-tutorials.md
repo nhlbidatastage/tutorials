@@ -6,7 +6,7 @@ description: Tutorials available for users of BioData Catalyst powered by Seven 
 
 #### Onboarding to Seven Bridges
 
-The tutorial \(PDF\) below aims to help you create an account on the BioData Catalyst Platform powered by Seven Bridges and learn the basics of creating a workspace \(project\), running an analysis, and searching the hosted data. 
+The tutorial \(PDF\) below aims to help you create an account on the NHLBI BioData Catalyst powered by Seven Bridges and learn the basics of creating a workspace \(project\), running an analysis, and searching the hosted data. 
 
 {% file src="../.gitbook/assets/2020-04-21-onboarding-seven-bridges-v1.1.pdf" caption="Onboarding to Seven Bridges \(PDF\)" %}
 
