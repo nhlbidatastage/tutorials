@@ -10,8 +10,6 @@ This document is an open access preview of the Terra tutorial workspace that you
 
 This template workspace was created to offer example tools for conducting a single variant, mixed-models GWAS focusing on a blood pressure trait from start to finish using the [NHLBI BioData Catalyst](https://www.nhlbidatastage.org/) ecosystem. We have created a set of documents [to get you started in the BioData Catalyst system](https://bdcatalyst.gitbook.io/biodata-catalyst-documentation/analyze-data/terra).  If you're ready to conduct an analysis, proceed with this dashboard:
 
-
-
 ### Data Model
 
 This template was set up to work with the NHLBI BioData Catalyst Gen3 data model. In this dashboard, you will learn how to import data from the Gen3 platform into this Terra template and conduct an association test using this particular data model.
