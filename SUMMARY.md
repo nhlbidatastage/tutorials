@@ -1,9 +1,6 @@
 # Table of contents
 
 * [Tutorials](README.md)
-* [Documentation](https://bdcatalyst.gitbook.io/biodata-catalyst-documentation/)
-* [Help Desk](https://bdcatalyst.freshdesk.com/support/home)
-* [Consortium Guidance](https://bdcatalyst.gitbook.io/biodata-catalyst-consortium-guidance/)
 
 ## Tutorials
 
