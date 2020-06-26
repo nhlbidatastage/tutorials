@@ -77,7 +77,7 @@ Once the export window in Gen3 transitions to Terra, you are given a few options
 If you have not used the Gen3 data model before, we recommend you first start with this tutorial [Getting Started with Gen3 Data in Terra](https://terra.biodatacatalyst.nhlbi.nih.gov/#workspaces/fc-product-demo/BioDataCatalyst-Gen3-data-on-Terra-Tutorial) and then come back to this step in the GWAS.
 
 1. Once data has been successfully uploaded to your Terra account, review the Data tab of your Terra workspace. The tutorial dataset should include the following clinical data tables that you will use in the GWAS: Subject, Demographic, Lab Result, Sample. 
-2. Navigate to the Notebooks tab and open **1-Prepare-Gen3-data-for-exploration**. This notebook consolidates the clinical data tables mentioned in step 1 into a single data table that can be used in the GWAS. This notebook calls functions in the companion notebook **terra-data-util**. You don't have to open terra-data-util notebook, it is available for users to edit for other use cases.
+2. Navigate to the Notebooks tab and open **1-Prepare-Gen3-data-for-exploration**. This notebook consolidates the clinical data tables mentioned in step 1 into a single data table that can be used in the GWAS. This notebook calls functions in the companion notebook **terra\_data\_table\_util**. You don't have to open terra-data-util notebook, it is available for users to edit for other use cases.
 3. Once this notebook completes, you should go back to the Data tab in your workspace and check out the new data table "consolidated\_metadata". This data table has all of the phenotypic data merged into one table. Now you are ready to import your data into the first GWAS analysis notebook. 
 
 Note: This consolidated\_metadata table is closer to the data model you use in our "Featured Workspaces". We hope these two notebooks \(1-Prepare-Gen3-data-for-exploration, terra-data-util\) help you use Gen3 data with more of our training resources in Terra.
@@ -88,7 +88,7 @@ Now that you can interact with the Gen3 structured data more easily, you will us
 
 1. [Learn how to customize your interactive analysis compute](https://support.terra.bio/hc/en-us/articles/360038125912) to work with the data you imported. Your computing needs will vary depending on the size of your VCF file. 
 2. Open the **2-GWAS-preliminary-analysis** notebook and set your runtime configuration. We have given a suggested configuration within the notebook for a downsampled VCF \(representing chromosomes 10 and 11\) that we include for training purposes.
-3. Call functions from the terra\_data\_util notebook to reformat multiple data tables into a single data table that can be loaded as a dataframe in the notebook.
+3. Call functions from the terra\_data\_table\_util notebook to reformat multiple data tables into a single data table that can be loaded as a dataframe in the notebook.
 4. Subset the dataframe to include only your traits of interest and remove any individuals that lack data for these traits.
 5. Visualize phenotype and environmental variable distributions in a series of plots.
 6. Filter your VCF to only common variants to increase statistical power. Genetic analyses in this notebook utilize the [Hail software](https://hail.is/). Hail is a framework for distributed computing with a focus on genetics. Particularly relevant for whole genome sequence \([WGS](https://en.wikipedia.org/wiki/Whole_genome_sequencing)\) analysis, Hail allows for efficient, nearly boundless computing \(in terms of variant and sample size\).    
@@ -116,7 +116,7 @@ In the 2-GWAS-preliminary-analysis notebook, we created a Sample Set data table 
 
 **genesis\_GWAS**
 
-This workflow creates a null model from phenotype data with the GENESIS biostatistical package. This null model can then be used for association testing. This workflow also runs single variant and aggregate test for genetic data. Implements Single-variant, Burden, SKAT, SKAT-O and SMMAT tests for Continuous or Dichotomous outcomes. All tests account for familiar relatedness through kinship matrixes. Underlying functions adapted from: Conomos MP and Thornton T \(2016\). GENESIS: GENetic EStimation and Inference in Structured samples \(GENESIS\): Statistical methods for analyzing genetic data from samples with population structure and/or relatedness. R package version 2.3.4.
+This workflow creates a null model from phenotype data with the GENESIS biostatistical package. This null model can then be used for association testing. This workflow also runs single variant and aggregate test for genetic data. Implements Single-variant, Burden, SKAT, SKAT-O and SMMAT tests for Continuous or Dichotomous outcomes. All tests account for familiar relatedness through kinship matrixes. Underlying functions adapted from: Conomos MP and Thornton T \(2016\). GENESIS: GENetic Estimation and Inference in Structured samples \(GENESIS\): Statistical methods for analyzing genetic data from samples with population structure and/or relatedness. R package version 2.3.4.
 
 **Time and cost estimates**
 
