@@ -8,7 +8,7 @@ description: Tutorials available for users of BioData Catalyst powered by Seven 
 
 The tutorial \(PDF\) below aims to help you create an account on the NHLBI BioData Catalyst powered by Seven Bridges and learn the basics of creating a workspace \(project\), running an analysis, and searching the hosted data. 
 
-{% file src="../.gitbook/assets/2020-04-21-onboarding-seven-bridges-v1.1.pdf" caption="Onboarding to Seven Bridges \(PDF\)" %}
+{% file src="../.gitbook/assets/2020-07-06-onboarding-seven-bridges-v1.2.pdf" caption="Onboarding to NHLBI BioData Catalyst Powered by Seven Bridges" %}
 
 #### Genetic Association Testing Using GENESIS Workflows on Seven Bridges
 
