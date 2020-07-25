@@ -4,10 +4,7 @@
 
 ## Tutorials
 
-* [Seven Bridges Tutorials](tutorials/seven-bridges-tutorials/README.md)
-  * [Getting Started](tutorials/seven-bridges-tutorials/getting-started.md)
-  * [Knowledge Center](tutorials/seven-bridges-tutorials/knowledge-center.md)
-  * [Troubleshooting Tasks](tutorials/seven-bridges-tutorials/troubleshooting-tasks.md)
+* [Seven Bridges Tutorials](tutorials/seven-bridges-tutorials.md)
 * [Terra Tutorials](tutorials/terra-tutorials/README.md)
   * [Getting Started with Gen3 Data on Terra       Tutorial Workspace](tutorials/terra-tutorials/getting-started-with-gen3-data-on-terra-tutorial-workspace.md)
   * [Genome Wide Association Study 1000 Genomes Tutorial](tutorials/terra-tutorials/genome-wide-association-study-tutorial.md)
