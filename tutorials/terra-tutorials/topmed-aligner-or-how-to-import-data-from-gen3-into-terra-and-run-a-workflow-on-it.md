@@ -8,63 +8,69 @@ This document is an open access preview of the Terra tutorial workspace that you
 
 In this tutorial, you will be running the TOPMed alignment workflow as you learn how to use the BioData Catalyst platform powered by Terra, Dockstore, and Gen3. This is a beginner-oriented tutorial walks you through how each of these platforms interact with one another.
 
+The workflow in this tutorial is the TOPMed aligner. This workflow is a containerized version of the pipeline University of Michigan developed to process all CRAM files available in the TOPMed program. You can use this aligner workflow to prepare data for comparison with TOPMed CRAM files.
+
 ### Data Models Covered in this Tutorial
 
-One aim of this tutorial is to help you learn the TOPMed data model and how to interact with it. This can help you bring your own data to the BioData Catalyst platform and compare it with the TOPMed data that is currently hosted in this system.
+One aim of this tutorial is to help you learn the Gen3 data model for TOPMed and how to interact with it. This can help you bring your own data to the BioData Catalyst platform and compare it with the TOPMed data that is currently hosted in this system.
 
 You will learn how to import TOPMed data from Gen3, which uses a more complex graph-based data model than the data model used for what's already hosted on Terra, such [as Terra's version of the 1000 Genomes](https://app.terra.bio/#library/datasets/public/1000%20Genomes/data-explorer). However, in order to use TOPMed data from Gen3, you must be approved to use TOPMed data via [dbGaP](https://www.ncbi.nlm.nih.gov/books/NBK99225/). If you don't have dbGaP access, worry not -- you'll still be able to run this workflow on 1000 Genomes Data, as long as you have an NIH credential such as [eRA Commons](https://era.nih.gov/faqs.htm#II) that can get you into Gen3.
+
+### Cost Estimate
+
+Your costs may vary depending on how your data is formatted and what parameters you use. In addition, if you are using preemptibles, there is some element of randomness here -- a preemptible may or may not be stopped by Google at any given time, causing an in-progress task to need to restart.
+
+When running the aligner workflow on 10 full-size CRAMs from the PharmaHD study imported from Gen3, using the aligner's default settings, the cost was $80.38 as reported by Terra. The most expensive of those ten files cost $10.82 and the least expensive cost $5.74.
 
 ### Setting Up
 
 Because Gen3 hosts controlled-access data, you will need to set up your Terra account for the linkage to Gen3 to work properly. Please see [Terra's documentation on the subject](https://support.terra.bio/hc/en-us/articles/360037648172-Accessing-TCGA-Controlled-Access-workspaces-in-Terra).
 
-Also, you should set up an Authorization Domain to protect your work. This will prevent you from inadvertently sharing data that shouldn't be shared. Learn more in this [article](https://support.terra.bio/hc/en-us/articles/360039415171).
+If you are planning to work with controlled access data, you should set up an Authorization Domain to protect your work. This will prevent you from inadvertently sharing data that shouldn't be shared. Learn more in this [article](https://support.terra.bio/hc/en-us/articles/360039415171).
 
 ## Using Gen3
 
-Background info \(optional, but you do need at least a basic familiarity with how Gen3 stores data\):
+If you are new to using Gen3 and Terra, you may want some background information. A good overview can be found in [Understanding and Using Gen3 Data in Terra](https://support.terra.bio/hc/en-us/articles/360038087312), which will introduce you to the Gen3 data model and how it is stored in Terra. Those seeking more specific information may want to use these resources:
 
 * [How Terra stores data in tables](https://support.terra.bio/hc/en-us/articles/360025758392-Managing-data-with-tables-)
 * [How Gen3 stores data](https://bdcatalyst.gitbook.io/biodata-catalyst-documentation/explore_data/gen3-discovering-data)
 * [Gen3's data dictionary](https://gen3.biodatacatalyst.nhlbi.nih.gov/DD)
 
-Head on over to [Gen3](https://gen3.biodatacatalyst.nhlbi.nih.gov/) and log in by clicking "Profile" in the top right hand corner. You will need to log in using your NIH eRA Commons ID. When you click on "Exploration" you will see all subjects and studies you have access to. Use filters on the right hand side of the screen to select what you are interested in. For instance, you could limit your search to subjects with a particular blood pressure. If you don't have dpGaP access to any TOPMed studies, you can use 1000 Genomes data, as it is open access.
+Head on over to [Gen3](https://gen3.biodatacatalyst.nhlbi.nih.gov/) and log in by clicking "Profile" in the top right hand corner. You will need to log in using your NIH eRA Commons ID. When you click on "Exploration" you will see all subjects and studies you have access to. Use filters on the right hand side of the screen to select what you are interested in.
 
 **Selecting by study/project**
 
-If you're interested in a particular study, click the "subject" tab on the leftmost toolbar. You will see a dropdown menu to select by project ID. In addition to showing the list of studies available, they will also display consent code shorthands in this menu.
+If you're interested in a particular study, click the "subject" tab on the leftmost toolbar. You will see a dropdown menu to select by project ID. In this example, we will search by Project ID for "1000 Genomes".
 
 ![censored view of Gen3 when you are logged in, with &quot;export to Terra&quot; button highlighted](https://github.com/aofarrel/tutorials/blob/master/gen3_overview_with_text_resized.png?raw=true)
 
-You also have the option of selecting by diagnosis or certain phenotypic traits.
-
 **Importing to Terra**
 
-After selecting a group of subjects, click the red "Export To Terra" button to do precisely that. Bear in mind that exporting may take a few minutes and you shouldn't navigate away from the page while this is happening. Once it completes, you will be taken to a Terra page where you can choose which workspace to put your data into. From here, you should select "template workspace" and import into the TOPMed aligner workspace.
+After selecting a project, click the red "Export To Terra" button. Bear in mind that exporting may take a few minutes and you shouldn't navigate away from the page while this is happening. Once it completes, you will be taken to a Terra page where you can choose which workspace to put your data into. From here, you should select "template workspace" and import into the TOPMed aligner workspace.
 
 ![screenshot showing the workspace import, with the topmost selection on the right annotated with a circle as it&apos;s the option that allows us to import to a template workspace](https://raw.githubusercontent.com/aofarrel/tutorials/master/bdc_template_import_resized.png)
 
-What happens next? A copy of this exact workspace will be created, with your newly imported data inside. It will take a few minutes for the data to fully import, but once it does, you'll see the workspace has been populated with several data tables.
+What happens next? A copy of this exact workspace will be created, with several data table that hold administrative, and any clinical and biospecimen data associated with the project. Biospecimen data tables will hold DRS that point to the location of the genomic data hosted by NHLBI. You can learn more about DRS [here](https://support.terra.bio/hc/en-us/articles/360039330211-Data-Access-with-the-GA4GH-Data-Repository-Service-DRS-). It will take a few minutes for the data to fully import, but once it does, you'll see the workspace has been populated with several data tables.
 
-One of the data tables you'll see is called "Submitted Aligned Reads." If you scroll across that in Terra's UI, you will see a column named "data\_format," indicating that these are CRAM files. But where are those files actually? Keep scrolling and you will see "object\_id" as a column header, and under that, several drs:// URIs. This is what Terra will be using to locate the files. Thankfully, you don't need to remember these URIs. When running a workflow, if we want to run a WDL on this data, we can reference that object\_id column in order to enter dozens \(hundreds, even\) of URIs into a workflow with just a few clicks.
+One of the data tables you'll see is called "Submitted Aligned Reads." If you scroll across that in Terra's UI, you will see a column named "data\_format," indicating that these are CRAM files. But where are those files actually? Keep scrolling and you will see "pfb:object\_id" as a column header, and under that, several drs:// URIs. This is what Terra will be using to locate the files. Thankfully, you don't need to remember these URIs. When running a workflow, if we want to run a WDL on this data, we can reference that pfb:object\_id column in order to enter dozens \(hundreds, even\) of URIs into a workflow with just a few clicks.
 
 ## Running the Aligner
 
 The links at the top of this section should serve as an explanation as to how Gen3 data is stored. But even with that background, it may still look a little odd when imported into Terra, so let's walk through how to use these tables. If you want a more complete explanation of how these tables relate to each other, please see the optional section towards the end of this workspace.
 
-Go to this workspace's workflows tab, and you will see a WDL has already been imported from DockStore for you to play with: A WDL-ized verison of the aligner used on all TOPMed data. Select it.
+Go to this workspace's workflows tab, and you will see a WDL has already been imported from Dockstore: a Dockerized version of the [University of Michigan's aligner for TOPMed data](https://dockstore.org/workflows/github.com/DataBiosphere/topmed-workflows/UM_aligner_wdl:1.32.0?tab=info). Select it.
 
 ![the two buttons in your workspace&apos;s data section, with the leftmost allowing you to make a new workflow, and the righmost one being for the TOPMed aligner workflow](https://raw.githubusercontent.com/aofarrel/tutorials/master/aligner_workflow_resized.png)
 
 You will see two buttons. Select the bubble labeled "Run workflow\(s\) with inputs defined by data table", and in the drop down menu, select "Submitted Aligned Reads".
 
-What if you wanted to select less subjects than are in your data table? Click "Select Data" which is located to the right of the Step 2 heading. This will open a new menu where you can select precisely which rows you want to run your workflow on. In this case, each row represents a subject.
+To select only particular participants, click "Select Data" which is located to the right of the Step 2 heading. This will open a new menu where you can select precisely which rows you want to run your workflow on. In this case, each row represents a participant.
 
 ![screenshot showing the workflow input page on Terra, as described in the text proceeding this image](https://raw.githubusercontent.com/aofarrel/tutorials/master/submitted%20aligned%20reads%20redo.png)
 
-Below this, you will see several arguments that can be used for this workflow. If it's not already filled out, type out `this.object_id` as the `input_cram_file`.
+Below this, you will see several arguments that can be used for this workflow. If it's not already filled out, type out `this.pfb:object_id` as the `input_cram_file`.
 
-But what is "this"? In Terra, we can use "this" to represent the data table that we selected from the drop down menu. So, in this case, "this" refers to the Submitted Aligned Reads data table. As for ".object\_id", that part means that Terra is looking at the column called object\_id.
+But what is "this"? In Terra, we can use "this" to represent the data table that we selected from the drop down menu. So, in this case, "this" refers to the Submitted Aligned Reads data table. As for ".pfb:object\_id", that part means that Terra is looking at the column called "pfb:object\_id" in said data table.
 
 For more information on using workflow inputs on Terra, please see [Terra's documentation on setting inputs.](https://support.terra.bio/hc/en-us/articles/360026521831-Configure-a-workflow-to-process-your-data)
 
@@ -108,7 +114,7 @@ Remember that workflow ID we took note of earlier? That workflow ID is also the 
 
 #### This is optional to run the aligner included in this workspace, however, certain other workflows may require you to draw upon more than one table, so this is good information to learn.
 
-Go back to the workflow tabs and again select the aligner. However, this time, select "Aligned Reads Index" instead of "Submitted Aligned Reads". Yes, this is a table of CRAI files, not CRAM files -- but like the CRAM table, it too links to its files using DRS URIs in the object\_id column. Don't worry, we'll get back to the CRAMs in a moment.
+Go back to the workflow tabs and again select the aligner. However, this time, select "Aligned Reads Index" instead of "Submitted Aligned Reads". Yes, this is a table of CRAI files, not CRAM files -- but like the CRAM table, it too links to its files using DRS URIs in the pfb:object\_id column. Don't worry, we'll get back to the CRAMs in a moment.
 
 ![screenshot of Terra&apos;s workflow UI page with the submitted aligned reads index table selected via dropdown menu](https://raw.githubusercontent.com/aofarrel/tutorials/master/aligned%20reads%20index%20redo.png)
 
@@ -116,7 +122,7 @@ Like what was indicated in the section detailing Gen3's data structure, your inp
 
 In this version of the TOPMed aligner, CRAI files optional, but for the sake of learning more about Gen3's data structure we will be using them. In Gen3's data structure, CRAI files are considered a child of CRAM files, or in other words, "submitted aligned reads" table \(which includes the CRAM files and their metadata\) is the parent of "aligned reads index" table \(the CRAI files and their metadata\). When dealing with Gen3 data, children know their parents, but not vice versa. **In summary, the table containing CRAI files also links to the table that contains CRAM files, but not vice versa.** In this particular example, that link is stored in the CRAI table as a column named submitted\_aligned\_reads. Note that it does not link to the table overall, but rather a given row of that table: Each row on the CRAI table points to the row of the CRAM table that its associated with. This can be a bit confusing to wrap your head around, so feel free to click through your data tables on Terra or review Gen3's documentation if you're getting a headache at this point.
 
-Why does this matter? Because you can use this to effectively use two different data tables in your analysis, even though at first glance it looks like you can only select one in the drop down menu. You simply enter that table's link to the CRAI files, ie, `this.object_id` as the input for `input_crai_file`. \(You will have to scroll to find `input_crai_file` as Terra puts optional arguments below all required arguments.\) And for `input_cram_file`, the correct entry is `this.submitted_aligned_reads.object_id`. Handy, isn't it?
+Why does this matter? Because you can use this to effectively use two different data tables in your analysis, even though at first glance it looks like you can only select one in the drop down menu. You simply enter that table's link to the CRAI files, ie, `this.pfb:object_id` as the input for `input_crai_file`. \(You will have to scroll to find `input_crai_file` in the aligner as Terra puts optional arguments below all required arguments.\) And for `input_cram_file`, the correct entry is `this.submitted_aligned_reads.pfb:object_id`. Handy, isn't it?
 
 ## Final Notes
 
@@ -133,10 +139,6 @@ Something that may be easy to miss in the aligner's documentation is the followi
 
 There's two important things to take away from this: 1. If what you already aligned your data to \(remember, CRAM/SAM/BAM files are already aligned!\) does not match the reference genome you are aligning to with this workflow, you must include what you aligned them to as the argument for `PreAlign_reference_genome` and its associated index as the argument for `PreAlign_reference_genome_index`. For instance, if your CRAM files were generated using HG19 as your reference and you are using this workflow to align them HG38, you must set HG38 as your argument for `ref_fasta` and HG19 as `PreAlign_reference_genome`. 2. TOPMed data is aligned to HG38. If you are running this workflow to compare your own data to TOPMed data, you must align to HG38.
 
-#### DRS: How We Keep Data Safe
-
-Like we hinted at earlier in this workspace, if you look at the `object_id` column of your datatables, you will notice that instead of https:// or gs://, you'll see drs:// instead. Technically speaking these are URIs \(Uniform Resource Identifiers; a URL is a type of URI\). GA4GH uses DRS \(Data Repository Service\) URIs for controlled access data. For more information, please see [Terra's documentation on GA4GH's Data Repository Service](https://support.terra.bio/hc/en-us/articles/360039330211).
-
 ## Authors
 
 Workspace author: Ash O'Farrell  
@@ -146,7 +148,7 @@ Edits and bug-squashing: Michael Baumann, Beth Sheets
 
 This workspace was completed under the NHLBI BioData Catalyst project.
 
-#### Workspace change log
+#### Workspace Changelog
 
 | Date | Change | Author |
 | :--- | :--- | :--- |
@@ -154,8 +156,6 @@ This workspace was completed under the NHLBI BioData Catalyst project.
 | Feb 6, 2020 | updated dashboard text | Beth |
 | Feb 10, 2020 | gen3, job tracking, output, major revisions | Ash |
 | Mar 27, 2020 | major reorganization, removal of unneeded info, better data structure explanation | Ash |
-
-
-
-
+| Oct 28, 2020 | updated to reflect pfb prefix of Geb3 tables + minor edits | Ash, Beth |
+| Dec 7, 2020 | added cost estimate | Ash |
 
