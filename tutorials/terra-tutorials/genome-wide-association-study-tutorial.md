@@ -2,7 +2,7 @@
 description: 'Powered by Dockstore, Terra, and Gen3'
 ---
 
-# Genome Wide Association Study 1000 Genomes Tutorial
+# Genome Wide Association Study with 1000 Genomes Data Tutorial
 
 This page is an open access preview of the Terra tutorial workspace that you can find at this [link](https://terra.biodatacatalyst.nhlbi.nih.gov/#workspaces/biodata-catalyst/BioData%20Catalyst%20GWAS%201000%20Genomes%20Tutorial). 
 
