@@ -128,7 +128,7 @@ Why does this matter? Because you can use this to effectively use two different 
 
 We've now gone over how to set up the TOPMed alignment workflow to work with the Gen3 graph-model . We now leave you with some final notes if you want to align your data from other sources using this workflow.
 
-* [How to run WDLs from Dockstore](https://bdcatalyst.gitbook.io/biodata-catalyst-documentation/community_tools/dockstore-example) -- useful if you want to preform further analysis on your newly aligned data
+* [How to run WDLs from Dockstore](https://bdcatalyst.gitbook.io/biodata-catalyst-documentation/community-tools-and-integration/bring-your-own-tool-s-to-biodata-catalyst/creating-testing-and-scaling-wdl-workflows) -- useful if you want to preform further analysis on your newly aligned data
 * [TOPMed Variant Caller workflow on Dockstore](https://dockstore.org/workflows/github.com/DataBiosphere/topmed-workflows/UM_variant_caller_wdl:feature/checker-optional-crai?tab=info)
 
 #### If Your Data Was/Will Be Aligned to Something that Isn't HG38
