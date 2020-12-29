@@ -76,7 +76,7 @@ If you haven't linked your Terra and Gen3 accounts yet, you need to follow these
 ### Step 2. Access synthetic dataset on Gen3 platform
 
 \(five minutes\)  
-This section walks through the process of accessing the public-access tutorial dataset \(**tutorial-synthetic\_data\_set\_1**\) by going to the ![Gen3 platform](https://gen3.biodatatacatalyst.nhlbi.gov).
+This section walks through the process of accessing the public-access tutorial dataset \(**tutorial-synthetic\_data\_set\_1**\) by going to the [Gen3 platform](https://gen3.biodatacatalyst.nhlbi.nih.gov/).
 
 ### Step 3. Export data to workspace
 
